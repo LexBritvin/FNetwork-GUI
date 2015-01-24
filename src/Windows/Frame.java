@@ -20,7 +20,7 @@ import java.util.Vector;
 /**
  * TODO: Откомментировать код.
  *
- * test test
+ * test test from another project
  */
 public class Frame extends JFrame implements Observer {
     // Размеры окна.
