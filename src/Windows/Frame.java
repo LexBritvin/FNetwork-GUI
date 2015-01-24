@@ -19,8 +19,6 @@ import java.util.Vector;
 
 /**
  * TODO: Откомментировать код.
- *
- * test test from another project
  */
 public class Frame extends JFrame implements Observer {
     // Размеры окна.
@@ -311,7 +309,6 @@ public class Frame extends JFrame implements Observer {
                     fnet.writeDBEdges(edges);
                 }
                 catch (Exception e) {}
-                // TODO: Переделать пересчет по помеченным вершинам
                 int[] ids = new int[markedNodes.size()];
                 double[] newWeights = new double[markedNodes.size()];
                 for (int i = 0; i < newWeights.length; i++) {
